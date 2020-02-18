@@ -4,9 +4,9 @@ class Shoe
 BRANDS = []
   def initialize(brand)
     @brand = brand
-     BRANDS{|i| i.uniq}
+     
       BRANDS << brand
- 
+      
   end
 
   def cobble
