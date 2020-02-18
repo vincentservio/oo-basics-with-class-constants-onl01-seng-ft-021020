@@ -6,9 +6,11 @@ BRANDS = []
     @brand = brand
     
       BRANDS << brand
-  BRANDS.uniq{|i| i}
+ 
   end
-
+def brand(BRANDS)
+ BRANDS.uniq{|i| i}
+end 
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
