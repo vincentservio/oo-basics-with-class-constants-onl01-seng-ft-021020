@@ -9,7 +9,7 @@ BRANDS = []
  
   end
 def brand(BRANDS)
- BRANDS.uniq{|i| i}
+
 end 
   def cobble
     self.condition = "new"
