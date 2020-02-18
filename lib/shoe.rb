@@ -6,7 +6,7 @@ BRANDS = []
     @brand = brand
      
       BRANDS << brand
-      
+      BRANDS{|i| i.uniq}
   end
 
   def cobble
